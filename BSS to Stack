@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
+    //Adds three 4-byte static uninitialized variables to the bss section in memory
     static long i, j, k;
+
+    //
     return 0;
 }
